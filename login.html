@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,6 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <meta name="google-signin-client_id" 
+        content="929259322531-d1kkcd4mb92naltvu8i4t6ecbjih0jem.apps.googleusercontent.com">
+
 
   <title>SB Admin 2 - Login</title>
 
@@ -62,6 +65,7 @@
                     <a href="index.html" class="btn btn-facebook btn-user btn-block">
                       <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
                     </a>
+                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
                   </form>
                   <hr>
                   <div class="text-center">
@@ -91,6 +95,10 @@
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
+
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <script src="js/JavaScript.js"></script>
 
 </body>
 

@@ -1,1 +1,5 @@
 node_modules
+sb2.sln
+.vs/config/applicationhost.config
+.vs/sb2/v14/.suo
+App_Data/PublishProfiles/sb2.pubxml
